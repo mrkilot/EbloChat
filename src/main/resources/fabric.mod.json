@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "eblochat",
+  "version": "${version}",
+  "name": "EbloChat",
+  "description": "Twitch chat inside Minecraft: channel tabs, mentions, moderation events, chat history and user cards - Chatterino-style.",
+  "authors": ["mrkilot", "Claude AI"],
+  "contact": {
+    "homepage": "https://t.me/mrkilotoff"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["id.eblo.chat.EbloChatClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": ">=0.155.0",
+    "minecraft": "~26.1",
+    "java": ">=25"
+  }
+}
